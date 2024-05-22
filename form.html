@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Students Registrations form</title>
+</head>
+<body>
+    <h2>Enquiry</h2>
+    <form>
+        Name: <input type="text"/>
+    <br/>
+    <br/>
+    Address : <textarea name="Address"></textarea>
+    <br/>
+    <br/>
+Gender :
+<input type="radio" value="m" name="Gender"/> male
+<input type="radio" value="f" name="Gender"/> femamle
+<input type="radio" value="o" name="Gender"/> other
+<br/>
+<br/>
+Country:
+<select >
+    <optgroup label="ASIA">
+        <option value="">please select Country</option>
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+</select>
+<br/>
+<br/>
+<input type="checkbox" name="hobbies[]"> Dancing
+
+<input type="checkbox" name="hobbies[]"> Singing
+
+<input type="checkbox" name="hobbies[]"> Reading
+<br/>
+<br/>
+<input type="submit" value="send" /> 
+<input type="reset" value="send" /> 
+    </form>
+
+    
+</body>
+</html>
